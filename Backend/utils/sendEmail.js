@@ -31,7 +31,7 @@ export const sendVerificationEmail = async (email, verificationToken) => {
 // ======== send Pasword Reset email ========
 export const sendPasswordResetEmail = async (email,resetURL) => {
   const info = await transporter.sendMail({
-    from: '"Ak Advance JwT auth" <maddison53@ethereal.email>', // sender address
+    from: '"Ak Advance JwT auth" <appylohar@gmail.com>', // sender address
     to: email,
     subject: "Reset your Password",
     html: PASSWORD_RESET_REQUEST_TEMPLATE.replace("{resetURL}", resetURL),
