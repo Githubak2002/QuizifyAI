@@ -18,7 +18,7 @@ export const sendVerificationEmail = async (email, verificationToken) => {
   // email = "appylohar@gmail.com";
   // verificationToken = "123455";
   const info = await transporter.sendMail({
-    from: '"Ak Advance JwT auth" <maddison53@ethereal.email>', // sender address
+    from: '"Ak Advance JwT auth" <appylohar@gmail.com>', // sender address
     to: email,
     subject: "Verification Email", // Subject line
     // text: "Hello world?", // plain text body
